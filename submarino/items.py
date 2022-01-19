@@ -10,4 +10,5 @@ class SubmarinoItem(scrapy.Item):
     product_name = scrapy.Field()
     product_url = scrapy.Field()
     price = scrapy.Field()
+    ratings = scrapy.Field()
     
